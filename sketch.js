@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
   
-  background(0);
+  background(255);
   Engine.update(engine);
     console.log(hammer.body.position.x);
     console.log(hammer.body.position.y);
